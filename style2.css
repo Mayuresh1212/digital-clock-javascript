@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060a1f;
+}
+#clock{
+    position: relative;
+    margin: 0 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    display: block;
+    width: 500px;
+    height: 200px;
+    background: #ff006a;
+    color: #fff;
+    border-radius: 80px;
+    font-weight: 300;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 4em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
+}
